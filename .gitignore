@@ -1,0 +1,54 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Downloaded datasets and generated caches
+/src/datasets/cache/
+/data/
+
+# Experiment results, plots, logs, and checkpoints
+/results*/
+/exp_b_hat_neurips/
+/graph_tmp.png
+/graph_for_robustness.png
+*.log
+*.pt
+*.pth
+*.ckpt
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

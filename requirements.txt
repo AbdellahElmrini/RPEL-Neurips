@@ -1,0 +1,6 @@
+pandas
+torch
+numpy
+torchvision
+scipy
+tokenizers
